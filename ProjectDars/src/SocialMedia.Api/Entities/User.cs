@@ -11,3 +11,4 @@ public class User
     public bool UserBlocked { get; set; }
     public DateTime RegisterTime { get; set; }
 }
+        
