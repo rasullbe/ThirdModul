@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="LogInApp.Api/LogInApp.Api.csproj" />
+  </Folder>
+</Solution>
