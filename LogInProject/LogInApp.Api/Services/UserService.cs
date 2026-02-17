@@ -1,6 +1,6 @@
-﻿namespace LogInApp.Api.Services
+﻿namespace LogInApp.Api.Services;
+
+public class UserService : IUserService
 {
-    public class UserService
-    {
-    }
+
 }

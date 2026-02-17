@@ -1,6 +1,5 @@
-﻿namespace LogInApp.Api.Services
+﻿namespace LogInApp.Api.Services;
+
+public interface IUserService
 {
-    public interface IUserService
-    {
-    }
 }
