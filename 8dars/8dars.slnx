@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="8dars/8dars.csproj" />
+  </Folder>
+</Solution>

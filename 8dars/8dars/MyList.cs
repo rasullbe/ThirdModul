@@ -39,14 +39,6 @@ public class MyList<T> : IMyList<T>
         return IndexOf(item) != -1;
     }
 
-    public T GetById(int index)
-    {
-        if (index < 0 || index >= _count)
-            throw new ArgumentOutOfRangeException();
-
-        return _items[index];
-    }
-
     public int IndexOf(T item)
     {
         for (int i = 0; i < _count; i++)
@@ -106,5 +98,19 @@ public class MyList<T> : IMyList<T>
         {
             Console.Write(_items[i] + " ");
         }
+    }
+
+    public T GetById(int index)
+    {
+        for (int i = 0; i < _count; i++)
+        {
+            if (_items[i] == index)
+            {
+                return _items[i];
+            }
+        }
+
+        return default;
+
     }
 }
