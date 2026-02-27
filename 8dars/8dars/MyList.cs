@@ -12,7 +12,6 @@ public class MyList<T> : IMyList<T>
     {
         _items = new T[capacity];
     }
-
     public void Add(T item)
     {
         if (_count >= Capacity)
