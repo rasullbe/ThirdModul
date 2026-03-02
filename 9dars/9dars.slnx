@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="9dars/9dars.csproj" />
+    <Project Path="Homework/Homework.csproj" Id="cb02e185-8d2e-45f8-ba0f-8c757a864c0a" />
   </Folder>
 </Solution>
